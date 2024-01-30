@@ -1,0 +1,57 @@
+/* label{
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+form input, form textarea{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color:rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.1);
+    color: #f4f4f4;
+} */
+/* FormStyles.css */
+
+label {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow */
+}
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Add a border for better visibility */
+    border-radius: 4px; /* Add border-radius for rounded input fields */
+    color: #f4f4f4;
+    transition: border-color 0.3s ease; /* Add transition for a smooth effect */
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #fff;
+}
+
+textarea {
+    resize: vertical;
+}
