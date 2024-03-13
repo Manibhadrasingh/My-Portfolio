@@ -8,7 +8,7 @@
    return (
      <div>
        <Navbar />
-       <HeroImg2 heading= "CONTACT." text ="Lets have a chat."/>
+       <HeroImg2 heading= "CONTACT." text ="Lets have a chat with me."/>
         <Form />
        <Footer />
      </div>
